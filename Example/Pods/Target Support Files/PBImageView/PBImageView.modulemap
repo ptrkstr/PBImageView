@@ -1,0 +1,6 @@
+framework module PBImageView {
+  umbrella header "PBImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}
