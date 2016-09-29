@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PBImageView_Example' do
+  pod 'PBImageView', :path => '../'
+
+  target 'PBImageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
