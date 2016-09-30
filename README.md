@@ -8,6 +8,20 @@ A UIImageView alternative that allows for animations between contentModes.
 
 ![Animation Image](https://github.com/patrickbdev/PBImageView/raw/master/Example/ExampleAnimation.gif)
 
+## Usage
+
+The API for PBImageView is exactly the same as a UIImageView.
+To animate the contentMode just wrap it in a UIView animation block.
+
+```swift
+let imageView = PBImageView(image: UIImage(named: "pineapple"))
+imageView.contentMode = .scaleAspectFill
+
+UIView.animate(withDuration: 1) {
+    imageView.contentMode = .scaleAspectFit
+}
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
