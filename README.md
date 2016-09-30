@@ -1,6 +1,5 @@
 # PBImageView
 
-[![CI Status](http://img.shields.io/travis/patrickbdev/PBImageView.svg?style=flat)](https://travis-ci.org/patrickbdev/PBImageView)
 [![Version](https://img.shields.io/cocoapods/v/PBImageView.svg?style=flat)](http://cocoapods.org/pods/PBImageView)
 [![License](https://img.shields.io/cocoapods/l/PBImageView.svg?style=flat)](http://cocoapods.org/pods/PBImageView)
 [![Platform](https://img.shields.io/cocoapods/p/PBImageView.svg?style=flat)](http://cocoapods.org/pods/PBImageView)
