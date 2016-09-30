@@ -6,7 +6,7 @@
 
 A UIImageView alternative that allows for animations between contentModes.
 
-![Animation Image](https://github.com/patrickbdev/PBImageView/raw/master/Example/ExampleAnimation.gif)
+![Sample Animation](https://github.com/patrickbdev/PBImageView/raw/master/Images/ExampleAnimation.gif)
 
 ## Usage
 
@@ -21,6 +21,12 @@ UIView.animate(withDuration: 1) {
     imageView.contentMode = .scaleAspectFit
 }
 ```
+
+### Storyboard Use
+
+PBImageView subclasses UIView, not UIImageView. To use it in a storybaord place a UIView and set the `Class` and `Module` to `PBImageView`
+
+![Storyboard Class/Module](https://github.com/patrickbdev/PBImageView/raw/master/Images/StoryboardClassModule.png)
 
 ## Example
 
