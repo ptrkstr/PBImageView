@@ -24,7 +24,8 @@ class ViewController: UIViewController {
         contentModeLabel.translatesAutoresizingMaskIntoConstraints = false
         contentModeLabel.textAlignment = .center
         contentModeLabel.textColor = UIColor.init(white: 0.2, alpha: 1.0)
-        contentModeLabel.backgroundColor = UIColor.init(white: 0.9, alpha: 0.4)
+        contentModeLabel.font = .boldSystemFont(ofSize: 20)
+        contentModeLabel.backgroundColor = UIColor.init(white: 1.0, alpha: 0.6)
         view.addSubview(contentModeLabel)
         
         NSLayoutConstraint.activate([
@@ -41,7 +42,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(self.changeContentMode), userInfo: nil, repeats: true)
+        Timer.scheduledTimer(timeInterval: 1.5, target: self, selector: #selector(self.changeContentMode), userInfo: nil, repeats: true)
     }
 
     @objc private func changeContentMode() {
