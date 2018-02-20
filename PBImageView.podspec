@@ -8,15 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PBImageView'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A UIImageView alternative that allows for animations between contentModes.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 A UIImageView alternative that allows for animations between contentModes using the UIView.animateWithDuration methods.
                        DESC
@@ -31,12 +24,5 @@ A UIImageView alternative that allows for animations between contentModes using 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'PBImageView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'PBImageView' => ['PBImageView/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,5 +1,5 @@
 PODS:
-  - PBImageView (0.1.0)
+  - PBImageView (1.0.2)
 
 DEPENDENCIES:
   - PBImageView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PBImageView: 42da4ae2435b6d965d647d11167ca74774717cdc
+  PBImageView: e57b60106c246dc2eefdd121bf87b6707995e6df
 
 PODFILE CHECKSUM: 0ec1dc8a344053cee2eb525b6de8a46e8097468f
 
-COCOAPODS: 1.1.0.rc.2
+COCOAPODS: 1.4.0
