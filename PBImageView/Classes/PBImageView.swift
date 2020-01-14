@@ -87,7 +87,7 @@ open class PBImageView: UIView {
         layoutImageView()
     }
     
-    open override var contentMode: UIViewContentMode {
+    open override var contentMode: UIView.ContentMode {
         didSet { layoutImageView() }
     }
     
